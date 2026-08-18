@@ -1,0 +1,1 @@
+copy C:\WestPier\REZSERVET_on_Sql_Server\rezservet_operation\Command_status.flag C:\WestPier\REZSERVET_on_Sql_Server\rezservet_operation\status.flag
