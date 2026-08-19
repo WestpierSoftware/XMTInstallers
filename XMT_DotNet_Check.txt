@@ -1,0 +1,421 @@
+================================
+XMT .NET / INSTALL ENVIRONMENT
+================================
+DATE:
+19/08/2026 
+15:55
+
+===== WINDOWS VERSION =====
+
+Microsoft Windows [Version 10.0.26100.33158]
+'wmic' is not recognized as an internal or external command,
+operable program or batch file.
+
+===== CURRENT USER =====
+ad\woodsg
+
+GROUP INFORMATION
+-----------------
+
+Group Name                                 Type             SID                                            Attributes                                                     
+========================================== ================ ============================================== ===============================================================
+Everyone                                   Well-known group S-1-1-0                                        Mandatory group, Enabled by default, Enabled group             
+BUILTIN\Administrators                     Alias            S-1-5-32-544                                   Group used for deny only                                       
+BUILTIN\Users                              Alias            S-1-5-32-545                                   Mandatory group, Enabled by default, Enabled group             
+BUILTIN\Remote Desktop Users               Alias            S-1-5-32-555                                   Mandatory group, Enabled by default, Enabled group             
+NT AUTHORITY\REMOTE INTERACTIVE LOGON      Well-known group S-1-5-14                                       Mandatory group, Enabled by default, Enabled group             
+NT AUTHORITY\INTERACTIVE                   Well-known group S-1-5-4                                        Mandatory group, Enabled by default, Enabled group             
+NT AUTHORITY\Authenticated Users           Well-known group S-1-5-11                                       Mandatory group, Enabled by default, Enabled group             
+NT AUTHORITY\This Organization             Well-known group S-1-5-15                                       Mandatory group, Enabled by default, Enabled group             
+LOCAL                                      Well-known group S-1-2-0                                        Mandatory group, Enabled by default, Enabled group             
+AD\HIS Runtime Group                       Group            S-1-5-21-1240282350-546571838-1909532687-3452  Mandatory group, Enabled by default, Enabled group             
+AD\Allow_RDP_Access                        Group            S-1-5-21-1240282350-546571838-1909532687-11995 Mandatory group, Enabled by default, Enabled group             
+AD\Rez_Delivery_Group                      Group            S-1-5-21-1240282350-546571838-1909532687-13993 Mandatory group, Enabled by default, Enabled group             
+AD\WOODSG                                  User             S-1-5-21-47742471-1493762662-1860969634-5120   Mandatory group, Enabled by default, Enabled group             
+Authentication authority asserted identity Well-known group S-1-18-1                                       Mandatory group, Enabled by default, Enabled group             
+AD\Source Code Repository Users            Alias            S-1-5-21-1240282350-546571838-1909532687-11220 Mandatory group, Enabled by default, Enabled group, Local Group
+Mandatory Label\Medium Mandatory Level     Label            S-1-16-8192                                                                                                   
+
+===== .NET FRAMEWORK 4.x =====
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full
+    Release    REG_DWORD    0x82348
+
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full
+    Version    REG_SZ    4.8.09032
+
+
+===== .NET 3.5 / CLR 2 FEATURE =====
+
+Error: 740
+
+Elevated permissions are required to run DISM. 
+Use an elevated command prompt to complete these tasks.
+
+===== ALL .NET FRAMEWORK REGISTRY ENTRIES =====
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\CDF
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\CDF\v4.0
+    HttpNamespaceReservationInstalled    REG_DWORD    0x1
+    NetTcpPortSharingInstalled    REG_DWORD    0x1
+    NonHttpActivationInstalled    REG_DWORD    0x1
+    SMSvcHostPath    REG_SZ    C:\Windows\Microsoft.NET\Framework64\v4.0.30319\
+    WMIInstalled    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727
+    CBS    REG_DWORD    0x1
+    Increment    REG_SZ    4927
+    Install    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+    SP    REG_DWORD    0x2
+    Version    REG_SZ    2.0.50727.4927
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1028
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1029
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1030
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1031
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1032
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1033
+    CBS    REG_DWORD    0x1
+    Increment    REG_SZ    4927
+    SP    REG_DWORD    0x2
+    Version    REG_SZ    2.0.50727.4927
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1035
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1036
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1038
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1040
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1041
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1042
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1043
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1044
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1045
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1046
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1049
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1053
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1055
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\2052
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\2070
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\3076
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\3082
+    Install    REG_DWORD    0x1
+    MSI    REG_DWORD    0x1
+    OCM    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0
+    CBS    REG_DWORD    0x1
+    Increment    REG_SZ    4926
+    Install    REG_DWORD    0x1
+    SP    REG_DWORD    0x2
+    Version    REG_SZ    3.0.30729.4926
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0\Servicing
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0\Servicing\Windows Workflow Foundation
+    CBS    REG_DWORD    0x1
+    Hotfix    REG_SZ    
+    Install    REG_DWORD    0x1
+    SP    REG_DWORD    0x2
+    SPIndex    REG_DWORD    0x0
+    SPName    REG_SZ    SP2
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0\Setup
+    InstallSuccess    REG_DWORD    0x1
+    Version    REG_SZ    3.0.30729.4926
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0\Setup\1033
+    CBS    REG_DWORD    0x1
+    Increment    REG_SZ    4926
+    Install    REG_DWORD    0x1
+    InstallSuccess    REG_DWORD    0x1
+    SP    REG_DWORD    0x2
+    Version    REG_SZ    3.0.30729.4926
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0\Setup\Windows Communication Foundation
+    InstallSuccess    REG_DWORD    0x1
+    ReferenceInstallPath    REG_SZ    C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\
+    RuntimeInstallPath    REG_SZ    C:\WINDOWS\Microsoft.NET\Framework64\v3.0\Windows Communication Foundation\
+    Version    REG_SZ    3.0.4506.4926
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0\Setup\Windows Presentation Foundation
+    (Default)    REG_SZ    WPF v3.0.6920.4902
+    InstallRoot    REG_SZ    C:\WINDOWS\Microsoft.NET\Framework64\v3.0\WPF\
+    InstallSuccess    REG_DWORD    0x1
+    ProductVersion    REG_SZ    3.0.6920.4902
+    Version    REG_SZ    3.0.6920.4902
+    WPFCommonAssembliesPathx64    REG_SZ    C:\WINDOWS\System32\
+    WPFNonReferenceAssembliesPathx64    REG_SZ    C:\WINDOWS\Microsoft.NET\Framework64\v3.0\WPF\
+    WPFReferenceAssembliesPathx64    REG_SZ    C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0\Setup\Windows Workflow Foundation
+    (Default)    REG_SZ    Windows Workflow Foundation
+    FileVersion    REG_SZ    3.0.4203.4926
+    InstallDir    REG_SZ    C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\
+    InstallSuccess    REG_DWORD    0x1
+    MajorBuildNum    REG_SZ    4203
+    ProductVersion    REG_SZ    3.0.0.0
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5
+    CBS    REG_DWORD    0x1
+    Install    REG_DWORD    0x1
+    InstallPath    REG_SZ    C:\WINDOWS\Microsoft.NET\Framework64\v3.5\
+    SP    REG_DWORD    0x1
+    Version    REG_SZ    3.5.30729.4926
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5\1033
+    CBS    REG_DWORD    0x1
+    Install    REG_DWORD    0x1
+    SP    REG_DWORD    0x1
+    Version    REG_SZ    3.5.30729.4926
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client
+    CBS    REG_DWORD    0x1
+    Install    REG_DWORD    0x1
+    InstallPath    REG_SZ    C:\Windows\Microsoft.NET\Framework64\v4.0.30319\
+    Release    REG_DWORD    0x82348
+    Servicing    REG_DWORD    0x0
+    TargetVersion    REG_SZ    4.0.0
+    Version    REG_SZ    4.8.09032
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client\1033
+    CBS    REG_DWORD    0x1
+    Install    REG_DWORD    0x1
+    Release    REG_DWORD    0x82348
+    Servicing    REG_DWORD    0x0
+    TargetVersion    REG_SZ    4.0.0
+    Version    REG_SZ    4.8.09032
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full
+    CBS    REG_DWORD    0x1
+    Install    REG_DWORD    0x1
+    InstallPath    REG_SZ    C:\Windows\Microsoft.NET\Framework64\v4.0.30319\
+    Release    REG_DWORD    0x82348
+    Servicing    REG_DWORD    0x0
+    TargetVersion    REG_SZ    4.0.0
+    Version    REG_SZ    4.8.09032
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\1033
+    CBS    REG_DWORD    0x1
+    Install    REG_DWORD    0x1
+    Release    REG_DWORD    0x82348
+    Servicing    REG_DWORD    0x0
+    TargetVersion    REG_SZ    4.0.0
+    Version    REG_SZ    4.8.09032
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0
+    (Default)    REG_SZ    deprecated
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0\Client
+    Install    REG_DWORD    0x1
+    Version    REG_SZ    4.0.0.0
+
+
+===== MODERN .NET HOST =====
+INFO: Could not find files for the given pattern(s).
+'dotnet' is not recognized as an internal or external command,
+operable program or batch file.
+'dotnet' is not recognized as an internal or external command,
+operable program or batch file.
+'dotnet' is not recognized as an internal or external command,
+operable program or batch file.
+
+===== INSTALLED XMT SERVICES =====
+
+===== FIND FILELINK EXE =====
+
+===== FIND PUMALINK EXE =====
+
+===== FILELINK CLR VERSION =====
+
+===== PUMALINK CLR VERSION =====
+
+===== FILELINK ASSEMBLY DETAILS =====
+
+===== PUMALINK ASSEMBLY DETAILS =====
+
+===== CONFIG / RUNTIMECONFIG FILES =====
+
+FullName                                                                                                               
+--------                                                                                                               
+C:\Program Files\Microsoft SQL Server Management Studio 22\Release\Common7\IDE\CommonExtensions\Microsoft\VBCSharp\L...
+C:\Program Files\Microsoft SQL Server Management Studio 22\Release\Common7\IDE\CommonExtensions\Microsoft\VBCSharp\L...
+C:\Program Files\Microsoft SQL Server Management Studio 22\Release\Common7\ServiceHub\Hosts\ServiceHub.Host.Extensib...
+C:\Program Files\Microsoft SQL Server Management Studio 22\Release\Common7\ServiceHub\Hosts\ServiceHub.Host.Extensib...
+C:\Program Files\Microsoft SQL Server Management Studio 22\Release\Common7\ServiceHub\Hosts\ServiceHub.Host.Extensib...
+C:\Program Files\Microsoft SQL Server Management Studio 22\Release\Common7\ServiceHub\Hosts\ServiceHub.Host.Extensib...
+C:\Program Files\Microsoft SQL Server Management Studio 22\Release\dotnet\net10.0\runtime\shared\Microsoft.AspNetCor...
+C:\Program Files\Microsoft SQL Server Management Studio 22\Release\dotnet\net10.0\runtime\shared\Microsoft.NETCore.A...
+C:\Program Files\Microsoft SQL Server Management Studio 22\Release\dotnet\net10.0\runtime\shared\Microsoft.WindowsDe...
+C:\Program Files\Microsoft SQL Server Management Studio 22\Release\dotnet\net8.0\runtime\shared\Microsoft.AspNetCore...
+C:\Program Files\Microsoft SQL Server Management Studio 22\Release\dotnet\net8.0\runtime\shared\Microsoft.NETCore.Ap...
+C:\Program Files\Microsoft SQL Server Management Studio 22\Release\dotnet\net8.0\runtime\shared\Microsoft.WindowsDes...
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Controller\Microsoft.ServiceHub.Controlle...
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.dotnet.x64\ServiceH...
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.dotnet.x64\ServiceH...
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.dotnet.x64\ServiceH...
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.dotnet.x64\ServiceH...
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.dotnet.x64\ServiceH...
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.dotnet.x64\ServiceH...
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.dotnet.x64\ServiceH...
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.dotnet.x64\ServiceH...
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.dotnet.x64\ServiceH...
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.dotnet.x64\ServiceH...
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.dotnet.x64\ServiceH...
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.Extensibility.amd64...
+C:\Program Files\Microsoft Visual Studio\2022\Community\dotnet\net8.0\runtime\shared\Microsoft.AspNetCore.App\8.0.25...
+C:\Program Files\Microsoft Visual Studio\2022\Community\dotnet\net8.0\runtime\shared\Microsoft.NETCore.App\8.0.25\Mi...
+C:\Program Files\Microsoft Visual Studio\2022\Community\dotnet\net8.0\runtime\shared\Microsoft.WindowsDesktop.App\8....
+
+
+
+===== CLR DIRECTORIES =====
+ Volume in drive C has no label.
+ Volume Serial Number is 5CBA-B4DC
+
+ Directory of C:\Windows\Microsoft.NET\Framework
+
+10/04/2026  16:15    <DIR>          .
+18/08/2026  19:29    <DIR>          ..
+01/04/2024  08:02    <DIR>          v1.0.3705
+01/04/2024  08:02    <DIR>          v1.1.4322
+13/04/2026  09:13    <DIR>          v2.0.50727
+10/04/2026  16:15    <DIR>          v3.0
+13/04/2026  09:13    <DIR>          v3.5
+18/08/2026  19:29    <DIR>          v4.0.30319
+               0 File(s)              0 bytes
+               8 Dir(s)  36,761,960,448 bytes free
+ Volume in drive C has no label.
+ Volume Serial Number is 5CBA-B4DC
+
+ Directory of C:\Windows\Microsoft.NET\Framework64
+
+10/04/2026  16:15    <DIR>          .
+18/08/2026  19:29    <DIR>          ..
+13/04/2026  09:13    <DIR>          v2.0.50727
+10/04/2026  16:15    <DIR>          v3.0
+13/04/2026  09:13    <DIR>          v3.5
+18/08/2026  19:29    <DIR>          v4.0.30319
+               0 File(s)              0 bytes
+               6 Dir(s)  36,761,960,448 bytes free
+
+===== CLR EXECUTABLES =====
+ Volume in drive C has no label.
+ Volume Serial Number is 5CBA-B4DC
+
+ Directory of C:\Windows\Microsoft.NET\Framework\v2.0.50727
+
+28/03/2024  20:52            28,672 InstallUtil.exe
+               1 File(s)         28,672 bytes
+               0 Dir(s)  36,761,960,448 bytes free
+ Volume in drive C has no label.
+ Volume Serial Number is 5CBA-B4DC
+
+ Directory of C:\Windows\Microsoft.NET\Framework\v4.0.30319
+
+01/04/2024  08:00            35,280 InstallUtil.exe
+               1 File(s)         35,280 bytes
+               0 Dir(s)  36,761,960,448 bytes free
+ Volume in drive C has no label.
+ Volume Serial Number is 5CBA-B4DC
+
+ Directory of C:\Windows\Microsoft.NET\Framework64\v2.0.50727
+
+28/03/2024  20:51            24,576 InstallUtil.exe
+               1 File(s)         24,576 bytes
+               0 Dir(s)  36,761,960,448 bytes free
+ Volume in drive C has no label.
+ Volume Serial Number is 5CBA-B4DC
+
+ Directory of C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+
+01/04/2024  08:00            34,768 InstallUtil.exe
+               1 File(s)         34,768 bytes
+               0 Dir(s)  36,761,960,448 bytes free
