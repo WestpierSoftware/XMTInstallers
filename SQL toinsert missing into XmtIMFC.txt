@@ -1,0 +1,18 @@
+INSERT INTO dbo.XMTIMFC
+    (SYS_IMFTAG, SYS_ACTIVE, SYS_IMFLGT)
+SELECT V.TAG, 'N', 10
+FROM (VALUES
+ ('EHR'),('EAD'),('EPD'),
+ ('ED1'),('ED2'),('ED3'),('ED4'),('ED5'),('ED6'),
+ ('EWK'),('EMN'),('EML'),
+ ('DE1'),('EM1'),('EU2'),
+ ('DE2'),('EM2'),('EU3'),
+ ('DE3'),('EM3'),
+ ('EOW'),('ECD'),('EPA'),('EPE'),('EAL'),
+ ('APQ')
+) V(TAG)
+WHERE NOT EXISTS (
+    SELECT 1
+    FROM dbo.XMTIMFC X
+    WHERE X.SYS_IMFTAG = V.TAG
+);

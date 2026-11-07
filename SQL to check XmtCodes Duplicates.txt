@@ -1,0 +1,37 @@
+SELECT XMTRESCODE, COUNT(*) AS Occurrences
+FROM dbo.XMTCODES
+GROUP BY XMTRESCODE
+HAVING COUNT(*) > 1
+ORDER BY Occurrences DESC;
+
+
+
+
+SELECT *
+FROM dbo.XMTCODES
+WHERE XMTRESCODE IN (
+    SELECT XMTRESCODE
+    FROM dbo.XMTCODES
+    GROUP BY XMTRESCODE
+    HAVING COUNT(*) > 1
+)
+ORDER BY XMTRESCODE;
+
+
+
+Then export directly to CSV:
+1. Press Ctrl + Shift + F (Results to File).
+2. Select Tools → Options → Query Results → SQL Server → Results to Text and set the output format to Comma delimited if available. Alternatively, use Results to Grid.
+3. Execute with F5.
+4. Save as XMTCODES_Duplicates.csv.
+Safer method: Use Results to Grid, right-click the results → Save Results As… → select CSV. This handles column headings and CSV formatting more reliably.
+
+
+
+
+You can tick Unique, but I would not click OK on the live XMTCODES index.
+- Ticking Unique alone: No database changes occur.
+- Clicking OK: SSMS may attempt to drop and recreate IX_XMTCODESL1 as a unique index.
+- With 124 duplicates: The operation should fail, but the existing index could be affected depending on how SSMS executes the change.
+Safer alternative: Click Script → Script Action to New Query Window rather than OK. This lets us inspect exactly what SQL Server intends to execute without changing anything.
+
